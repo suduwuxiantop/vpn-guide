@@ -35,7 +35,6 @@
 
 本仓库内容遵循 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh) 协议，欢迎转载科普内容，请注明来源为"速度无限VPN"，谢绝用于商业推广其他服务。
 
-
 ## 文章合集（articles）
 
 | 文章 | 说明 |
@@ -44,6 +43,7 @@
 | [机场怎么选？6个维度帮你避开新手坑](articles/airport-selection-guide.md) | 机场怎么选？6个维度帮你避开新手坑 |
 | [中转和直连到底有什么区别？](articles/relay-vs-direct-hysteria2.md) | 中转和直连到底有什么区别？ |
 | [Hysteria2协议详解](articles/hysteria2-protocol-guide.md) | Hysteria2协议详解 |
+| [Hysteria2从零搭建到Clash Verge连接：一份能直接跑通的实战教程](articles/hysteria2-server-setup-clash-verge-tutorial.md) | 全新VPS上从安装Hysteria2到编辑config.yaml、放行防火墙、再到Clash Verge导入配置连接的完整实操教程 |
 | [机场圈黑话词典](articles/airport-slang-glossary.md) | 机场圈黑话词典 |
 | [Reality / Hysteria2 / TUIC 协议对比](articles/reality-hysteria2-tuic-protocols.md) | Reality / Hysteria2 / TUIC 协议对比 |
 | [新手向：什么是VPN](articles/what-is-vpn-beginner-guide.md) | 新手向：什么是VPN |
@@ -70,4 +70,3 @@
 | 文件 | 说明 |
 |---|---|
 | [default.clash.yaml](resources/default.clash.yaml) | Clash 默认配置文件 |
-
