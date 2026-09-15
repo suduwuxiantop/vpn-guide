@@ -67,6 +67,7 @@
 | [ChatGPT访问指南](articles/chatgpt-access-guide.md) | ChatGPT访问指南 |
 | [Claude访问指南](articles/claude-access-guide.md) | Claude访问指南 |
 | [从2018到现在：我的翻墙十年，和我为什么决定自己做机场](articles/my-vpn-history-and-why-i-started-an-airport.md) | 个人翻墙十年经历回顾，机场跑路原因复盘 |
+| [为什么测速显示的延迟数字，跟实际用起来的感觉不一样](articles/latency-test-vs-real-experience.md) | 为什么Clash里测速忽高忽低，但日常使用完全不卡 |
 
 ## 资源文件（resources）
 
