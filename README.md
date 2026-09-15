@@ -66,6 +66,7 @@
 | [Cursor访问指南](articles/cursor-access-guide.md) | Cursor访问指南 |
 | [ChatGPT访问指南](articles/chatgpt-access-guide.md) | ChatGPT访问指南 |
 | [Claude访问指南](articles/claude-access-guide.md) | Claude访问指南 |
+| [从2018到现在：我的翻墙十年，和我为什么决定自己做机场](articles/my-vpn-history-and-why-i-started-an-airport.md) | 个人翻墙十年经历回顾，机场跑路原因复盘 |
 
 ## 资源文件（resources）
 
