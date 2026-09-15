@@ -73,3 +73,5 @@
 | 文件 | 说明 |
 |---|---|
 | [default.clash.yaml](resources/default.clash.yaml) | Clash 默认配置文件 |
+| [2022-suwayun-config-memento.yml](resources/2022-suwayun-config-memento.yml) | 速蛙云2022年的原始订阅配置文件（保留作纪念，节点均已失效） |
+| [2022-suwayun-config-screenshot.png](resources/2022-suwayun-config-screenshot.png) | 速蛙云2022年订阅截图，节点已全部显示Timeout |
