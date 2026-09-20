@@ -71,6 +71,7 @@
 | [新晋的Clash Mi是什么来头？它会不会取代小火箭？](articles/clash-mi-vs-shadowrocket.md) | 从内核、协议支持、策略组、上手门槛几个角度对比Clash Mi和小火箭 |
 | [Trojan协议从0到1完整部署：真证书、双客户端接入与避坑指南](articles/trojan-server-setup-full-guide.md) | 用sing-box搭建Trojan，含证书申请与自动续期、Clash Verge和Shadowrocket双端接入、443共存方案与排错 |
 | [Shadowsocks从0到1完整部署：原理、搭建与2026年还值不值得用](articles/shadowsocks-and-ssr-full-guide.md) | 讲清楚SS的AEAD加密原理、sing-box搭建步骤，以及ShadowsocksR的技术原理与部署方法 |
+| [独享IP连不上？SOCKS5独享代理正确用法+云服务器中转转发完整指南](articles/dedicated-socks5-relay-setup-guide.md) | 独享SOCKS5超时排查、指纹浏览器与Clash Verge填写方法、用阿里云/搬瓦工做中转转发实操 |
 
 ## 资源文件（resources）
 
