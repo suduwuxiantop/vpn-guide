@@ -73,6 +73,8 @@
 | [Shadowsocks从0到1完整部署：原理、搭建与2026年还值不值得用](articles/shadowsocks-and-ssr-full-guide.md) | 讲清楚SS的AEAD加密原理、sing-box搭建步骤，以及ShadowsocksR的技术原理与部署方法 |
 | [独享IP连不上？SOCKS5独享代理正确用法+云服务器中转转发完整指南](articles/dedicated-socks5-relay-setup-guide.md) | 独享SOCKS5超时排查、指纹浏览器与Clash Verge填写方法、用阿里云/搬瓦工做中转转发实操 |
 | [NaiveProxy从0到1完整部署：伪装成真实Chrome流量的代理协议](articles/naive-server-setup-full-guide.md) | 讲清楚NaiveProxy复用Chromium网络栈的原理、sing-box部署步骤，以及为什么Clash Verge不支持、该用什么客户端 |
+| [Hysteria2小白搭建教程：从买服务器到能用，照着做就行](articles/hysteria2-beginner-setup-guide.md) | 完全新手向操作版，每一步该做什么、该看到什么结果、卡住了怎么办，不讲原理只讲手指头动作 |
+| [NaiveProxy小白搭建教程：从买服务器到能用，照着做就行](articles/naive-beginner-setup-guide.md) | 完全新手向操作版，特别提醒Clash Verge不支持该协议、该装什么客户端，跟着做不用懂原理 |
 
 ## 资源文件（resources）
 
