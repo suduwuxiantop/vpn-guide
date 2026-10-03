@@ -75,6 +75,7 @@
 | [NaiveProxy从0到1完整部署：伪装成真实Chrome流量的代理协议](articles/naive-server-setup-full-guide.md) | 讲清楚NaiveProxy复用Chromium网络栈的原理、sing-box部署步骤，以及为什么Clash Verge不支持、该用什么客户端 |
 | [Hysteria2小白搭建教程：从买服务器到能用，照着做就行](articles/hysteria2-beginner-setup-guide.md) | 完全新手向操作版，每一步该做什么、该看到什么结果、卡住了怎么办，不讲原理只讲手指头动作 |
 | [NaiveProxy小白搭建教程：从买服务器到能用，照着做就行](articles/naive-beginner-setup-guide.md) | 完全新手向操作版，特别提醒Clash Verge不支持该协议、该装什么客户端，跟着做不用懂原理 |
+| [节点和协议怎么选？Hysteria2、VLESS+Reality、AnyTLS 对比与宽带适配指南](articles/protocol-choice-guide.md) | 电信联通直接用 Hysteria2，移动宽带连不上 hy2 就换 VLESS+Reality / AnyTLS；附 BGP 线路说明和 hy2 超时排查 |
 
 ## 资源文件（resources）
 
