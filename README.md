@@ -76,6 +76,7 @@
 | [Hysteria2小白搭建教程：从买服务器到能用，照着做就行](articles/hysteria2-beginner-setup-guide.md) | 完全新手向操作版，每一步该做什么、该看到什么结果、卡住了怎么办，不讲原理只讲手指头动作 |
 | [NaiveProxy小白搭建教程：从买服务器到能用，照着做就行](articles/naive-beginner-setup-guide.md) | 完全新手向操作版，特别提醒Clash Verge不支持该协议、该装什么客户端，跟着做不用懂原理 |
 | [节点和协议怎么选？Hysteria2、VLESS+Reality、AnyTLS 对比与宽带适配指南](articles/protocol-choice-guide.md) | 电信联通直接用 Hysteria2，移动宽带连不上 hy2 就换 VLESS+Reality / AnyTLS；附 BGP 线路说明和 hy2 超时排查 |
+| [节点全部超时怎么办？Clash Verge、v2rayN、小火箭通用的 8 步排查法（2026）](articles/node-timeout-troubleshooting.md) | 测速全是 Timeout 时按 8 步排查：订阅状态、设备时间、客户端内核、软件冲突、UDP 限速、测速地址、重启顺序、交叉验证 |
 
 ## 资源文件（resources）
 
