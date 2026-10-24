@@ -78,6 +78,11 @@
 | [节点和协议怎么选？Hysteria2、VLESS+Reality、AnyTLS 对比与宽带适配指南](articles/protocol-choice-guide.md) | 电信联通直接用 Hysteria2，移动宽带连不上 hy2 就换 VLESS+Reality / AnyTLS；附 BGP 线路说明和 hy2 超时排查 |
 | [节点全部超时怎么办？Clash Verge、v2rayN、小火箭通用的 8 步排查法（2026）](articles/node-timeout-troubleshooting.md) | 测速全是 Timeout 时按 8 步排查：订阅状态、设备时间、客户端内核、软件冲突、UDP 限速、测速地址、重启顺序、交叉验证 |
 | [国内 Windows 电脑怎么从微软商店安装 ChatGPT？（2026）](articles/chatgpt-windows-microsoft-store-install-china.md) | 商店搜不到、`0x80131500` 打不开、登录不支持地区：开 TUN → 改系统地区 → wsreset → 认准 OpenAI 发布者安装 |
+| [国内 Windows 电脑怎么安装 Claude 桌面版？（2026）](articles/claude-windows-desktop-install-china.md) | 官网下载、TUN 模式、登录与 MCP 工具联网，附白屏/地区不可用/邮箱收不到验证码排查 |
+| [Mac 上怎么安装 ChatGPT 和 Claude 桌面版？（2026）](articles/mac-chatgpt-claude-install-china.md) | 官网 dmg 免 Apple ID 安装，ChatGPT 需 Apple 芯片；以及自己注册美区 Apple ID 的正确方法 |
+| [国内安卓手机怎么安装 ChatGPT？（2026）](articles/android-chatgpt-install-china.md) | 判断有无谷歌服务、Google Play 切换国家、APKMirror 下载正版 APK 并核对签名 |
+| [Gemini 提示在你所在的国家/地区不可用？（2026）](articles/gemini-region-unavailable-fix.md) | 从节点 IP、Google 账号关联地区、浏览器缓存与定位三个方向排查 |
+| [v2rayN 新手订阅教程（2026）](articles/v2rayn-subscription-beginner-tutorial.md) | 下载 SelfContained 版、导入通用订阅、测速选节点、开系统代理、绕过大陆路由与 TUN 模式 |
 
 ## 资源文件（resources）
 

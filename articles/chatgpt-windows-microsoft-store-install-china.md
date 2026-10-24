@@ -167,6 +167,9 @@ winget install --id 9NT1R1C2HH7J --source msstore
 - [Claude Code / Codex 配合 Clash Meta TUN 模式](claude-code-codex-clash-meta-tun.md)
 - [Clash Verge 订阅教程](clash-verge-subscription-tutorial.md)
 - [节点全部超时怎么办？8 步排查法](node-timeout-troubleshooting.md)
+- [国内 Windows 电脑怎么安装 Claude 桌面版](claude-windows-desktop-install-china.md)
+- [Mac 上怎么安装 ChatGPT 和 Claude 桌面版](mac-chatgpt-claude-install-china.md)
+- [国内安卓手机怎么安装 ChatGPT](android-chatgpt-install-china.md)
 
 ---
 
