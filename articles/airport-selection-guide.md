@@ -13,7 +13,7 @@
 - 宣传语 vs 该关注的真实指标
 - 普通用户怎么挑
 
-> 📖 **完整内容请阅读原文**：[机场怎么选？6个维度帮你避开新手坑](https://main.suduwuxian.top/%E6%9C%BA%E5%9C%BA%E6%80%8E%E4%B9%88%E9%80%89/)
+> 📖 **完整内容请阅读原文**：[机场怎么选？6个维度帮你避开新手坑](https://main.suduwuxian.top/airport-selection-guide/)
 
 ---
 

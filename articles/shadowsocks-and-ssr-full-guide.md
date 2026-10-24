@@ -14,7 +14,7 @@ Shadowsocks（简称 SS）是这个圈子里资历最老的协议之一，2012 �
 - 七、SS vs SSR vs 新协议，怎么选
 - 八、常见问题排错
 
-> 📖 **完整内容请阅读原文**：[Shadowsocks 从0到1完整部署指南：原理、搭建与2026年还值不值得用](https://main.suduwuxian.top/shadowsocks%E4%BB%8E0%E5%88%B01%E5%AE%8C%E6%95%B4%E9%83%A8%E7%BD%B2%EF%BC%9A%E5%8E%9F%E7%90%86%E3%80%81%E6%90%AD%E5%BB%BA%E4%B8%8E2026%E5%B9%B4%E8%BF%98%E5%80%BC%E4%B8%8D%E5%80%BC%E5%BE%97%E7%94%A8/)
+> 📖 **完整内容请阅读原文**：[Shadowsocks 从0到1完整部署指南：原理、搭建与2026年还值不值得用](https://main.suduwuxian.top/shadowsocks-ssr-setup-guide/)
 
 ---
 

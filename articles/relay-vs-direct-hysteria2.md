@@ -11,7 +11,7 @@
 - Hysteria2在这里面扮演什么角色
 - 普通用户怎么选
 
-> 📖 **完整内容请阅读原文**：[中转和直连到底有什么区别？搞懂这个再选机场不吃亏](https://main.suduwuxian.top/%E4%B8%AD%E8%BD%AC%E7%9B%B4%E8%BF%9E%E5%8C%BA%E5%88%AB/)
+> 📖 **完整内容请阅读原文**：[中转和直连到底有什么区别？搞懂这个再选机场不吃亏](https://main.suduwuxian.top/relay-vs-direct-line/)
 
 ---
 

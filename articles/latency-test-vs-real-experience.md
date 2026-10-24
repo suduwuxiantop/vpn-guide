@@ -8,7 +8,7 @@
 - 为什么数字忽高忽低，用起来却很稳
 - 怎么判断节点到底行不行
 
-> 📖 **完整内容请阅读原文**：[为什么测速显示的延迟数字，跟实际用起来的感觉不一样？](https://main.suduwuxian.top/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%B5%8B%E9%80%9F%E6%98%BE%E7%A4%BA%E7%9A%84%E5%BB%B6%E8%BF%9F%E6%95%B0%E5%AD%97%EF%BC%8C%E8%B7%9F%E5%AE%9E%E9%99%85%E7%94%A8%E8%B5%B7%E6%9D%A5%E7%9A%84%E6%84%9F%E8%A7%89/)
+> 📖 **完整内容请阅读原文**：[为什么测速显示的延迟数字，跟实际用起来的感觉不一样？](https://main.suduwuxian.top/latency-test-vs-real-experience/)
 
 ---
 

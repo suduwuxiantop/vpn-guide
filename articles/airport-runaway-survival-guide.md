@@ -12,7 +12,7 @@
 - 普通用户可以怎么自保
 - "八卦"之外，更该看的是"透明度"
 
-> 📖 **完整内容请阅读原文**：[机场跑路潮全解析：黑话、征兆与自保指南（2026）](https://main.suduwuxian.top/%E6%9C%BA%E5%9C%BA%E8%B7%91%E8%B7%AF%E9%BB%91%E8%AF%9D%E4%B8%8E%E8%87%AA%E4%BF%9D%E6%8C%87%E5%8D%97/)
+> 📖 **完整内容请阅读原文**：[机场跑路潮全解析：黑话、征兆与自保指南（2026）](https://main.suduwuxian.top/airport-runaway-survival-guide/)
 
 ---
 

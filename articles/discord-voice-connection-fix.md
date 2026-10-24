@@ -8,7 +8,7 @@
 - 排查思路：先分清楚是"完全连不上"还是"只是语音质量差"
 - 稳定使用Discord语音，这几点建议
 
-> 📖 **完整内容请阅读原文**：[Discord文字能发，语音却卡在"连接中"？国内玩家该怎么排查](https://main.suduwuxian.top/discord%E8%AF%AD%E9%9F%B3%E8%BF%9E%E6%8E%A5%E4%B8%8D%E4%B8%8A%E6%80%8E%E4%B9%88%E5%8A%9E/)
+> 📖 **完整内容请阅读原文**：[Discord文字能发，语音却卡在"连接中"？国内玩家该怎么排查](https://main.suduwuxian.top/discord-voice-connection-fix/)
 
 ---
 

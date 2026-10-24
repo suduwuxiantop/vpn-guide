@@ -12,7 +12,7 @@
 - 那Hysteria2是不是完美无缺？
 - 普通用户该怎么选
 
-> 📖 **完整内容请阅读原文**：[Hysteria2协议的特点：为什么越来越多机场开始用它替代Shadowsocks和VMess](https://main.suduwuxian.top/hysteria2%E5%8D%8F%E8%AE%AE%E7%89%B9%E7%82%B9/)
+> 📖 **完整内容请阅读原文**：[Hysteria2协议的特点：为什么越来越多机场开始用它替代Shadowsocks和VMess](https://main.suduwuxian.top/hysteria2-protocol-features/)
 
 ---
 

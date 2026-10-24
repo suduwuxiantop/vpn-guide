@@ -14,7 +14,7 @@
 - 普通用户怎么判断自己用的到底是哪种线路
 - 线路好是不是就等于机场好
 
-> 📖 **完整内容请阅读原文**：[CN2、GIA、CIA、IPLC、IEPL都是什么？机场专线线路区别科普（2026）](https://main.suduwuxian.top/cn2-gia-cia-iplc-iepl%E5%8C%BA%E5%88%AB/)
+> 📖 **完整内容请阅读原文**：[CN2、GIA、CIA、IPLC、IEPL都是什么？机场专线线路区别科普（2026）](https://main.suduwuxian.top/cn2-gia-iplc-iepl-guide/)
 
 ---
 

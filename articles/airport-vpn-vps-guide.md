@@ -10,7 +10,7 @@
 - 那VPS又是什么？和前两个有什么关系
 - 三者放在一起看：一条从"省心"到"自由"的光谱
 
-> 📖 **完整内容请阅读原文**：[机场是什么？和VPN有什么区别？VPS又是什么？一篇讲清楚](https://main.suduwuxian.top/%E6%9C%BA%E5%9C%BA-vpn-vps%E5%8C%BA%E5%88%AB/)
+> 📖 **完整内容请阅读原文**：[机场是什么？和VPN有什么区别？VPS又是什么？一篇讲清楚](https://main.suduwuxian.top/airport-vpn-vps-difference/)
 
 ---
 

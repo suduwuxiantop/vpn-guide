@@ -14,7 +14,7 @@
 - 要不要开启TUN模式
 - 导入成功之后，如何确认真的生效了
 
-> 📖 **完整内容请阅读原文**：[Clash Verge订阅怎么导入？从获取链接到TUN模式全教程（2026）](https://main.suduwuxian.top/clash-verge%E5%AF%BC%E5%85%A5%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/)
+> 📖 **完整内容请阅读原文**：[Clash Verge订阅怎么导入？从获取链接到TUN模式全教程（2026）](https://main.suduwuxian.top/clash-verge-subscription-tutorial/)
 
 ---
 

@@ -12,7 +12,7 @@
 - 三种协议放在一起怎么选
 - 普通用户要不要自己折腾协议
 
-> 📖 **完整内容请阅读原文**：[REALITY、Hysteria2、TUIC：现在的机场为什么都在换协议？](https://main.suduwuxian.top/%E6%96%B0%E4%B8%80%E4%BB%A3%E6%9C%BA%E5%9C%BA%E4%BB%A3%E7%90%86%E5%8D%8F%E8%AE%AE%E8%A7%A3%E6%9E%90/)
+> 📖 **完整内容请阅读原文**：[REALITY、Hysteria2、TUIC：现在的机场为什么都在换协议？](https://main.suduwuxian.top/reality-hysteria2-tuic-protocols/)
 
 ---
 

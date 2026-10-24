@@ -15,7 +15,7 @@
 - 第七阶段：AI流量指纹——2026年的新战场
 - 这场二十多年的攻防战，说明了什么？
 
-> 📖 **完整内容请阅读原文**：[从"自由门"到AI流量指纹：翻墙工具二十多年演变史](https://main.suduwuxian.top/%E7%BF%BB%E5%A2%99%E5%B7%A5%E5%85%B7%E6%BC%94%E5%8F%98%E5%8F%B2/)
+> 📖 **完整内容请阅读原文**：[从"自由门"到AI流量指纹：翻墙工具二十多年演变史](https://main.suduwuxian.top/censorship-tools-history/)
 
 ---
 

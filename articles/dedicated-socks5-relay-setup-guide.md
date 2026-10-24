@@ -15,7 +15,7 @@
 - 八、验证中转是否生效
 - 九、常见问题排错
 
-> 📖 **完整内容请阅读原文**：[独享IP连不上？SOCKS5独享代理正确用法 + 用云服务器做中转转发完整指南](https://main.suduwuxian.top/%E7%8B%AC%E4%BA%ABip%E8%BF%9E%E4%B8%8D%E4%B8%8A%EF%BC%9Fsocks5%E7%8B%AC%E4%BA%AB%E4%BB%A3%E7%90%86%E6%AD%A3%E7%A1%AE%E7%94%A8%E6%B3%95-%E7%94%A8%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%81%9A%E4%B8%AD/)
+> 📖 **完整内容请阅读原文**：[独享IP连不上？SOCKS5独享代理正确用法 + 用云服务器做中转转发完整指南](https://main.suduwuxian.top/dedicated-socks5-relay-setup-guide/)
 
 ---
 

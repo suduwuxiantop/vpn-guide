@@ -12,7 +12,7 @@
 - 五、2026年该怎么给它定位
 - 六、常见问题排错
 
-> 📖 **完整内容请阅读原文**：[NaiveProxy（Naive协议）从0到1完整部署：伪装成真实Chrome流量的代理协议](https://main.suduwuxian.top/naiveproxy%E4%BB%8E0%E5%88%B01%E5%AE%8C%E6%95%B4%E9%83%A8%E7%BD%B2%EF%BC%9A%E4%BC%AA%E8%A3%85%E6%88%90%E7%9C%9F%E5%AE%9Echrome%E6%B5%81%E9%87%8F%E7%9A%84%E4%BB%A3%E7%90%86%E5%8D%8F%E8%AE%AE/)
+> 📖 **完整内容请阅读原文**：[NaiveProxy（Naive协议）从0到1完整部署：伪装成真实Chrome流量的代理协议](https://main.suduwuxian.top/naiveproxy-server-setup-guide/)
 
 ---
 

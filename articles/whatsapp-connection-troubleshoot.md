@@ -11,7 +11,7 @@
 - 排查清单：你的连不上到底是哪一种？
 - 稳定使用WhatsApp的建议
 
-> 📖 **完整内容请阅读原文**：[WhatsApp在国内总是连不上、消息发不出去？真正原因可能不是VPN](https://main.suduwuxian.top/whatsapp%E8%BF%9E%E4%B8%8D%E4%B8%8A%E6%B6%88%E6%81%AF%E5%8F%91%E4%B8%8D%E5%87%BA%E5%8E%BB/)
+> 📖 **完整内容请阅读原文**：[WhatsApp在国内总是连不上、消息发不出去？真正原因可能不是VPN](https://main.suduwuxian.top/whatsapp-connection-troubleshoot/)
 
 ---
 

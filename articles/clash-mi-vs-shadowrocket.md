@@ -9,7 +9,7 @@
 - 它有没有“平替”不到的地方
 - 所以它会取代小火箭吗
 
-> 📖 **完整内容请阅读原文**：[新晋的Clash Mi是什么来头？它会不会取代小火箭？](https://main.suduwuxian.top/%E6%96%B0%E6%99%8B%E7%9A%84clash-mi%E6%98%AF%E4%BB%80%E4%B9%88%E6%9D%A5%E5%A4%B4%EF%BC%9F%E5%AE%83%E4%BC%9A%E4%B8%8D%E4%BC%9A%E5%8F%96%E4%BB%A3%E5%B0%8F%E7%81%AB%E7%AE%AD%EF%BC%9F/)
+> 📖 **完整内容请阅读原文**：[新晋的Clash Mi是什么来头？它会不会取代小火箭？](https://main.suduwuxian.top/clash-mi-vs-shadowrocket/)
 
 ---
 

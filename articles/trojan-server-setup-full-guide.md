@@ -17,7 +17,7 @@ Trojan是这几年流传最广的代理协议之一，思路简单粗暴——�
 - 第七步：证书权限
 - 第八步：放行端口
 
-> 📖 **完整内容请阅读原文**：[Trojan协议从0到1完整部署：真证书、双客户端接入与避坑指南](https://main.suduwuxian.top/trojan%E5%8D%8F%E8%AE%AE%E4%BB%8E0%E5%88%B01%E5%AE%8C%E6%95%B4%E9%83%A8%E7%BD%B2%EF%BC%9A%E7%9C%9F%E8%AF%81%E4%B9%A6%E3%80%81%E5%8F%8C%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%8E%A5%E5%85%A5%E4%B8%8E%E9%81%BF/)
+> 📖 **完整内容请阅读原文**：[Trojan协议从0到1完整部署：真证书、双客户端接入与避坑指南](https://main.suduwuxian.top/trojan-server-setup-guide/)
 
 ---
 

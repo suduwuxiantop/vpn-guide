@@ -10,7 +10,7 @@
 - 直接硬连会遇到哪些麻烦？
 - 稳定连接比"能不能连上"更重要
 
-> 📖 **完整内容请阅读原文**：[国内打不开ChatGPT、Claude、Gemini？2026年AI工具访问指南](https://main.suduwuxian.top/%E5%9B%BD%E5%86%85%E6%89%93%E4%B8%8D%E5%BC%80chatgpt%E3%80%81claude%E3%80%81gemini%EF%BC%9F2026%E5%B9%B4ai%E5%B7%A5%E5%85%B7%E8%AE%BF%E9%97%AE%E6%8C%87%E5%8D%97/)
+> 📖 **完整内容请阅读原文**：[国内打不开ChatGPT、Claude、Gemini？2026年AI工具访问指南](https://main.suduwuxian.top/chatgpt-claude-gemini-access-china/)
 
 ---
 

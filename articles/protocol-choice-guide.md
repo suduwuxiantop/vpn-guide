@@ -12,7 +12,7 @@
 - 一张图看懂怎么选
 - 在客户端里怎么切换
 
-> 📖 **完整内容请阅读原文**：[节点和协议怎么选？Hysteria2、VLESS+Reality、AnyTLS 对比与宽带适配指南](https://main.suduwuxian.top/%E8%8A%82%E7%82%B9%E5%92%8C%E5%8D%8F%E8%AE%AE%E6%80%8E%E4%B9%88%E9%80%89/)
+> 📖 **完整内容请阅读原文**：[节点和协议怎么选？Hysteria2、VLESS+Reality、AnyTLS 对比与宽带适配指南](https://main.suduwuxian.top/protocol-choice-guide/)
 
 ---
 

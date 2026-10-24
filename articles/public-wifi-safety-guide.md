@@ -10,7 +10,7 @@
 - 哪些行为在公共WiFi下特别危险？
 - 简单几步，明显降低风险
 
-> 📖 **完整内容请阅读原文**：[出差旅行必看：公共WiFi到底有多危险？2026年防泄露实用指南](https://main.suduwuxian.top/%E5%87%BA%E5%B7%AE%E6%97%85%E8%A1%8C%E5%BF%85%E7%9C%8B%EF%BC%9A%E5%85%AC%E5%85%B1wifi%E5%88%B0%E5%BA%95%E6%9C%89%E5%A4%9A%E5%8D%B1%E9%99%A9%EF%BC%9F2026%E5%B9%B4%E9%98%B2%E6%B3%84%E9%9C%B2%E5%AE%9E/)
+> 📖 **完整内容请阅读原文**：[出差旅行必看：公共WiFi到底有多危险？2026年防泄露实用指南](https://main.suduwuxian.top/public-wifi-safety-guide/)
 
 ---
 
