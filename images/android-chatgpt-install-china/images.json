@@ -1,0 +1,52 @@
+[
+ {
+  "file": "cover.webp",
+  "type": "cover",
+  "tag": "Android · 2026 教程",
+  "title": "国内安卓手机\n安装 ChatGPT",
+  "subtitle": "Google Play 与 APK 两种方法 · 正版签名核对 · 登录与网络设置"
+ },
+ {
+  "file": "method-choice.webp",
+  "type": "decision",
+  "title": "安卓手机该用哪种方法装 ChatGPT？",
+  "nodes": [
+   {
+    "q": "手机是鸿蒙 NEXT（纯血鸿蒙）？",
+    "yes": "不能装安卓 APK，用浏览器打开 chatgpt.com"
+   },
+   {
+    "q": "手机没有谷歌服务（GMS），打不开 Google Play？",
+    "yes": "从 APKMirror 下载 OpenAI 官方签名的 APK"
+   },
+   {
+    "q": "Google Play 里能搜到 ChatGPT（开发者 OpenAI）？",
+    "yes": "直接安装，能自动更新，最省事",
+    "no": "切换 Play 国家/地区；切换不了就用 APK"
+   }
+  ]
+ },
+ {
+  "file": "apk-safety-check.webp",
+  "type": "steps",
+  "title": "APK 安装前的 4 个安全检查",
+  "steps": [
+   [
+    "只认可信渠道",
+    "Google Play 或 APKMirror；不用网盘、群文件、「中文版」「免翻墙版」"
+   ],
+   [
+    "核对开发者",
+    "开发者必须是 OpenAI，包名 com.openai.chatgpt"
+   ],
+   [
+    "选对版本",
+    "选正式版，不选 beta；大多数手机选 arm64-v8a"
+   ],
+   [
+    "覆盖安装看签名",
+    "提示「签名不一致」立刻停下，说明其中一个不是正版"
+   ]
+  ]
+ }
+]

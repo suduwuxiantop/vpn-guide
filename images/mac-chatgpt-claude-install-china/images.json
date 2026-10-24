@@ -1,0 +1,57 @@
+[
+ {
+  "file": "cover.webp",
+  "type": "cover",
+  "tag": "macOS · 2026 教程",
+  "title": "Mac 安装 ChatGPT 和\nClaude 桌面版",
+  "subtitle": "官网 dmg 免 Apple ID · 美区 Apple ID 正确注册 · 网络设置"
+ },
+ {
+  "file": "method-choice.webp",
+  "type": "decision",
+  "title": "Mac 上该用哪种方法安装？",
+  "nodes": [
+   {
+    "q": "只想在这台 Mac 上用 ChatGPT / Claude？",
+    "yes": "官网下载 dmg 安装，不需要 Apple ID，不用改地区"
+   },
+   {
+    "q": "想从 App Store 统一管理更新，或者还要装 iPhone / iPad 版？",
+    "yes": "自己注册一个美区 Apple ID，只在 App Store 里登录",
+    "no": "继续用网页版 chatgpt.com / claude.ai"
+   }
+  ]
+ },
+ {
+  "file": "system-requirements.webp",
+  "type": "compare",
+  "title": "Mac 版系统要求（截至 2026 年 10 月）",
+  "columns": [
+   "ChatGPT",
+   "Claude"
+  ],
+  "rows": [
+   [
+    "系统版本",
+    "macOS 14 及以上",
+    "macOS 11 及以上"
+   ],
+   [
+    "芯片",
+    "Apple 芯片（M1 及以后）或 Intel",
+    "Apple 芯片或 Intel"
+   ],
+   [
+    "官方下载",
+    "chatgpt.com/download",
+    "claude.com/download"
+   ],
+   [
+    "需要 Apple ID 吗",
+    "✓ 官网下载不需要",
+    "✓ 官网下载不需要"
+   ]
+  ],
+  "note": "数据来自 OpenAI 和 Anthropic 官方帮助中心；ChatGPT 新版桌面应用整合了 Chat、Work 和 Codex，旧版改名 ChatGPT Classic。"
+ }
+]

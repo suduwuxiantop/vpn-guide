@@ -1,0 +1,68 @@
+[
+ {
+  "file": "cover.webp",
+  "type": "cover",
+  "tag": "Windows · 2026 教程",
+  "title": "国内 Windows 安装\nClaude 桌面版",
+  "subtitle": "官网下载 · 登录 · 白屏转圈 · MCP 工具联网，完整解决"
+ },
+ {
+  "file": "install-steps.webp",
+  "type": "steps",
+  "title": "Claude 桌面版安装：5 步流程",
+  "steps": [
+   [
+    "固定一个支持地区的节点",
+    "美国 / 日本 / 新加坡；关掉自动选择，避免 IP 频繁变化"
+   ],
+   [
+    "开启 TUN 模式",
+    "MCP 工具、Claude Code 是独立进程，不一定读系统代理"
+   ],
+   [
+    "从官网下载安装包",
+    "claude.com/download，x64 和 ARM64 都有；不要用网盘里的安装包"
+   ],
+   [
+    "安装并登录",
+    "邮箱验证码或 Google 账号；浏览器登录后点「打开 Claude」回到应用"
+   ],
+   [
+    "按需接入 MCP 工具",
+    "设置 → 开发者里编辑配置；依赖下载失败多半是没开 TUN"
+   ]
+  ]
+ },
+ {
+  "file": "chat-vs-mcp-network.webp",
+  "type": "compare",
+  "title": "只开系统代理时，Claude 哪些功能会出问题？",
+  "columns": [
+   "只开系统代理",
+   "开启 TUN 模式"
+  ],
+  "rows": [
+   [
+    "聊天窗口",
+    "✓ 一般正常",
+    "✓ 正常"
+   ],
+   [
+    "登录跳转",
+    "✓ 一般正常",
+    "✓ 正常"
+   ],
+   [
+    "MCP 工具（npx / uvx）",
+    "✗ 常见 ETIMEDOUT、ECONNRESET",
+    "✓ 正常"
+   ],
+   [
+    "Claude Code 命令行",
+    "✗ 不读系统代理",
+    "✓ 正常"
+   ]
+  ],
+  "note": "聊天能用、工具全报错，是「子进程没走代理」的典型表现。"
+ }
+]

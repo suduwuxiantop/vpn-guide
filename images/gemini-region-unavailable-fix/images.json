@@ -1,0 +1,55 @@
+[
+ {
+  "file": "cover.webp",
+  "type": "cover",
+  "tag": "Gemini · 2026 排查",
+  "title": "Gemini 提示\n「你所在的地区不可用」",
+  "subtitle": "从节点 IP、账号关联地区、浏览器三个方向排查"
+ },
+ {
+  "file": "troubleshoot-flow.webp",
+  "type": "decision",
+  "title": "Gemini 地区不可用：先判断是哪一类问题",
+  "nodes": [
+   {
+    "q": "美国节点 + 无痕窗口，不登录也提示不可用？",
+    "yes": "节点问题：换支持地区的节点，用 IP 查询网站确认出口"
+   },
+   {
+    "q": "不登录能打开，登录后才提示不可用？",
+    "yes": "账号问题：查看服务条款页的「国家/地区版本」"
+   },
+   {
+    "q": "无痕窗口正常，普通窗口不行？",
+    "yes": "浏览器问题：清 google.com 的 Cookie 和缓存",
+    "no": "关闭浏览器定位权限、开 TUN 防止 WebRTC 泄露"
+   }
+  ]
+ },
+ {
+  "file": "three-checks.webp",
+  "type": "compare",
+  "title": "Gemini 判断你在哪：3 个信号",
+  "columns": [
+   "看什么",
+   "怎么改"
+  ],
+  "rows": [
+   [
+    "节点出口 IP",
+    "香港、中国大陆不在支持列表",
+    "换美国 / 日本 / 新加坡节点并固定"
+   ],
+   [
+    "Google 账号关联国家",
+    "policies.google.com/terms 顶部「国家/地区版本」",
+    "按 Google 隐私权常见问题里的入口申请更正"
+   ],
+   [
+    "浏览器",
+    "缓存、定位权限、WebRTC 可能暴露真实位置",
+    "无痕窗口测试、关定位、开 TUN"
+   ]
+  ]
+ }
+]

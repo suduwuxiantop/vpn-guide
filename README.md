@@ -24,11 +24,11 @@
 | 文章 | 说明 |
 |---|---|
 | [国内打不开 ChatGPT、Claude、Gemini？2026 年 AI 工具访问指南](articles/chatgpt-claude-gemini-access-china.md) | 为什么打不开、硬连会遇到什么问题、怎样才算稳定 |
-| [国内 Windows 电脑怎么从微软商店安装 ChatGPT？](articles/chatgpt-windows-microsoft-store-install-china.md) | 商店搜不到、`0x80131500` 打不开、登录不支持地区：开 TUN → 改系统地区 → wsreset → 认准 OpenAI 发布者安装 |
-| [国内 Windows 电脑怎么安装 Claude 桌面版？](articles/claude-windows-desktop-install-china.md) | 官网下载、TUN 模式、登录与 MCP 工具联网，附白屏 / 地区不可用 / 收不到验证码排查 |
-| [Mac 上怎么安装 ChatGPT 和 Claude 桌面版？](articles/mac-chatgpt-claude-install-china.md) | 官网 dmg 免 Apple ID 安装，ChatGPT 需 macOS 14 以上；以及自己注册美区 Apple ID 的正确方法 |
-| [国内安卓手机怎么安装 ChatGPT？](articles/android-chatgpt-install-china.md) | 判断有无谷歌服务、Google Play 切换国家、APKMirror 下载正版 APK 并核对签名 |
-| [Gemini 提示在你所在的国家/地区不可用？](articles/gemini-region-unavailable-fix.md) | 从节点 IP、Google 账号关联地区、浏览器缓存与定位三个方向排查 |
+| [国内 Windows 微软商店安装 ChatGPT：搜不到、0x80131500 怎么办](articles/chatgpt-windows-microsoft-store-install-china.md) | 新版 ChatGPT 与 ChatGPT Classic 怎么选；开 TUN → 改系统地区 → wsreset → 认准 OpenAI 发布者安装 |
+| [国内 Windows 安装 Claude 桌面版：下载、登录、白屏转圈解决](articles/claude-windows-desktop-install-china.md) | 官网下载或 winget 安装、固定节点 + TUN、MCP 工具联网，附地区不可用 / 收不到验证码排查 |
+| [Mac 安装 ChatGPT 和 Claude 桌面版：官网下载免 Apple ID](articles/mac-chatgpt-claude-install-china.md) | ChatGPT 需 macOS 14（Apple 芯片和 Intel 都支持），Claude 需 macOS 11；美区 Apple ID 的正确用法 |
+| [国内安卓手机怎么安装 ChatGPT？Google Play 和 APK 两种方法](articles/android-chatgpt-install-china.md) | 判断有无谷歌服务、Play 切换国家的限制、APKMirror 下载正版 APK 并核对签名 |
+| [Gemini 提示国家/地区不可用怎么办？节点、账号、浏览器 3 步排查](articles/gemini-region-unavailable-fix.md) | 节点 IP、Google 账号关联国家、浏览器缓存与定位，逐项定位原因 |
 | [Claude Code、Codex 装完打不开？Clash Meta 网络设置与排查指南](articles/claude-code-codex-clash-meta-tun.md) | 浏览器能用、命令行连不上，多半是没开 TUN 模式 |
 | [用了 VPN 还是被 Claude 封号？真正的雷区在这里](articles/claude-account-ban-vpn-myth.md) | 封号和 VPN 的关系，以及真正容易触发风控的行为 |
 | [ChatGPT 国内稳定使用指南](articles/chatgpt-access-guide.md) | Network Error、Cloudflare 人机验证循环等报错的解决思路 |
@@ -40,7 +40,7 @@
 | 文章 | 说明 |
 |---|---|
 | [Clash Verge 订阅怎么导入？从获取链接到 TUN 模式全教程](articles/clash-verge-subscription-tutorial.md) | Windows / Mac 上最常用的 Mihomo 内核客户端完整上手 |
-| [v2rayN 新手订阅教程：从下载到导入订阅、选节点、开代理](articles/v2rayn-subscription-beginner-tutorial.md) | 下载 SelfContained 版、导入通用订阅、测速选节点、系统代理、绕过大陆路由与 TUN 模式 |
+| [v2rayN 怎么用？新手订阅教程：导入订阅、选节点、开代理](articles/v2rayn-subscription-beginner-tutorial.md) | 下载官方便携版、导入通用订阅、测速选节点、系统代理、绕过大陆路由与 TUN 模式 |
 | [新晋的 Clash Mi 是什么来头？它会不会取代小火箭？](articles/clash-mi-vs-shadowrocket.md) | 从内核、协议支持、策略组、上手门槛对比 Clash Mi 和 Shadowrocket |
 
 ## 故障排查
