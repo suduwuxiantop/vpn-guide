@@ -26,7 +26,7 @@
 | [国内打不开 ChatGPT、Claude、Gemini？2026 年 AI 工具访问指南](articles/chatgpt-claude-gemini-access-china.md) | 为什么打不开、硬连会遇到什么问题、怎样才算稳定 |
 | [国内 Windows 电脑怎么从微软商店安装 ChatGPT？](articles/chatgpt-windows-microsoft-store-install-china.md) | 商店搜不到、`0x80131500` 打不开、登录不支持地区：开 TUN → 改系统地区 → wsreset → 认准 OpenAI 发布者安装 |
 | [国内 Windows 电脑怎么安装 Claude 桌面版？](articles/claude-windows-desktop-install-china.md) | 官网下载、TUN 模式、登录与 MCP 工具联网，附白屏 / 地区不可用 / 收不到验证码排查 |
-| [Mac 上怎么安装 ChatGPT 和 Claude 桌面版？](articles/mac-chatgpt-claude-install-china.md) | 官网 dmg 免 Apple ID 安装，ChatGPT 需 Apple 芯片；以及自己注册美区 Apple ID 的正确方法 |
+| [Mac 上怎么安装 ChatGPT 和 Claude 桌面版？](articles/mac-chatgpt-claude-install-china.md) | 官网 dmg 免 Apple ID 安装，ChatGPT 需 macOS 14 以上；以及自己注册美区 Apple ID 的正确方法 |
 | [国内安卓手机怎么安装 ChatGPT？](articles/android-chatgpt-install-china.md) | 判断有无谷歌服务、Google Play 切换国家、APKMirror 下载正版 APK 并核对签名 |
 | [Gemini 提示在你所在的国家/地区不可用？](articles/gemini-region-unavailable-fix.md) | 从节点 IP、Google 账号关联地区、浏览器缓存与定位三个方向排查 |
 | [Claude Code、Codex 装完打不开？Clash Meta 网络设置与排查指南](articles/claude-code-codex-clash-meta-tun.md) | 浏览器能用、命令行连不上，多半是没开 TUN 模式 |

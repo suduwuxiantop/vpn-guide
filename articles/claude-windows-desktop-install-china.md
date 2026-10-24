@@ -12,92 +12,6 @@ Claude 的 Windows 桌面版和网页版用的是同一个账号，但多了几�
 - **登录**：邮箱验证码或 Google 账号都可以，登录前就要把节点切好。
 - **账号安全**：频繁换 IP、用公共共享节点、用不支持地区的手机号或支付方式，是被风控的常见诱因。
 
-## 开始之前，准备好这几样东西
-
-1. **一台 Windows 10 或 Windows 11 电脑**（64 位，x64 或 ARM 架构都有对应安装包）。
-2. **一个能用的代理客户端和节点**。本文以 Clash Verge 为例。
-3. **一个 Claude 账号**。没有的话可以在桌面版里直接注册，建议用 Gmail 等海外邮箱。
-
----
-
-## 第一步：选好节点，打开 TUN 模式
-
-### 1.1 节点选择
-
-Anthropic 官方支持的地区列表里没有中国大陆和香港。用香港节点打开 Claude，通常会看到"App unavailable"之类的地区不可用提示。
-
-推荐顺序：**美国 > 日本 / 新加坡 / 台湾**。另外两条建议：
-
-- **固定一个节点长期使用**。同一个账号今天在美国、明天在日本、后天在新加坡，是最容易触发风控的行为之一。
-- **关掉"自动选择""负载均衡"这类策略组**，它们会在后台自动换节点。
-
-### 1.2 打开 TUN 模式
-
-在 Clash Verge 里：
-
-1. 打开"设置"，找到"虚拟网卡模式"（TUN 模式）。
-2. 第一次开启会提示安装"服务模式"，点安装并在管理员权限窗口里点"是"。
-3. 打开"虚拟网卡模式"开关，"系统代理"可以关掉，避免两者冲突。
-
-**为什么不只用系统代理**：Claude 桌面版本身基于 Chromium 内核，一般会读取系统代理，只开系统代理也能用。但桌面版接入的 MCP 服务器、Claude Code 这类工具是单独的程序，它们很多根本不看系统代理，结果就是"聊天能用，工具全报错"。开 TUN 能一次性解决。
-
----
-
-## 第二步：从官网下载安装包
-
-浏览器打开 Claude 官网下载页：
-
-```
-https://claude.ai/download
-```
-
-选择 **Windows** 版本下载。如果你的电脑是骁龙处理器的 ARM 笔记本，选 ARM64 版本，性能和续航会更好。
-
-**进阶方法：用 winget 安装**
-
-打开 PowerShell，先搜索确认包名：
-
-```powershell
-winget search Claude
-```
-
-在结果里找到发布者是 Anthropic 的那一项，用它的 ID 安装（目前一般是 `Anthropic.Claude`）：
-
-```powershell
-winget install --id Anthropic.Claude
-```
-
-> ⚠️ 网上流传很多"Claude 中文版""Claude 破解版""免登录版"安装包，**一律不要装**。官方桌面版本身就支持中文界面，也不需要任何破解。
-
----
-
-## 第三步：安装并打开
-
-双击下载好的安装包，安装过程不需要选择任何选项，装完会自动打开 Claude。
-
-**你应该看到什么**：一个 Claude 的登录界面，有"Continue with Google"和"Continue with email"两个选项。
-
-**如果一直白屏或转圈**：说明程序没连上网络。确认 TUN 已开启 → 在任务栏右下角右键 Claude 图标选择退出 → 重新打开。
-
----
-
-## 第四步：登录账号
-
-- **邮箱登录**：输入邮箱，去邮箱里找到 Anthropic 发来的验证码或登录链接。如果点链接后跳转到浏览器，浏览器登录完成后会提示"打开 Claude"，点允许即可回到桌面版。
-- **Google 登录**：会跳转浏览器完成 Google 授权，同样会自动跳回桌面版。
-
-登录成功后，可以在设置里打开开机自启、设置全局快捷键，或者把界面语言切换成中文。
-
----
-
-## 第五步（可选）：给 Claude 桌面版接入 MCP 工具
-
-MCP 是让 Claude 调用外部工具的协议，比如读写本地文件夹、操作浏览器、查数据库。在桌面版的 设置 → 开发者（Developer）里可以编辑配置文件，添加 MCP 服务器。
-
-这里最常见的坑就是网络：很多 MCP 服务器通过 `npx`、`uvx` 启动，需要从 npm、PyPI 下载依赖，**没开 TUN 的情况下这一步经常超时失败**，日志里会出现 `ETIMEDOUT`、`ECONNRESET` 之类的报错。开 TUN 之后重启 Claude 一般就好了。
-
----
-
 ## 常见问题速查表
 
 | 现象 | 最可能的原因 | 怎么解决 |
@@ -110,14 +24,9 @@ MCP 是让 Claude 调用外部工具的协议，比如读写本地文件夹、�
 | 聊天正常，MCP 工具全部报错 | MCP 子进程没走代理 | 开 TUN；检查 Node.js / Python 是否安装 |
 | 用着用着账号被封 | IP 频繁变化、共享节点、支付方式等风控因素 | 固定节点；详见下方《Claude 封号与 VPN 的误解》 |
 
----
+> 📖 **完整内容请阅读原文**：[国内 Windows 电脑怎么安装 Claude 桌面版？下载、登录、打不开的完整解决办法（2026）](https://main.suduwuxian.top/claude-windows-desktop-install-china/)
 
-## 相关阅读
-
-- [Claude 访问指南](claude-access-guide.md)
-- [Claude 封号与 VPN 的误解](claude-account-ban-vpn-myth.md)
-- [Claude Code / Codex 配合 Clash Meta TUN 模式](claude-code-codex-clash-meta-tun.md)
-- [国内 Windows 电脑怎么从微软商店安装 ChatGPT](chatgpt-windows-microsoft-store-install-china.md)
+原文包含节点选择与 TUN 模式设置、官网下载与安装的每一步、登录时的注意事项，以及给 Claude 桌面版接入 MCP 工具的方法。
 
 ---
 
