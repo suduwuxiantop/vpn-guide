@@ -31,9 +31,9 @@
 | [Gemini 提示国家/地区不可用怎么办？节点、账号、浏览器 3 步排查](articles/gemini-region-unavailable-fix.md) | 节点 IP、Google 账号关联国家、浏览器缓存与定位，逐项定位原因 |
 | [Claude Code、Codex 装完打不开？Clash Meta 网络设置与排查指南](articles/claude-code-codex-clash-meta-tun.md) | 浏览器能用、命令行连不上，多半是没开 TUN 模式 |
 | [用了 VPN 还是被 Claude 封号？真正的雷区在这里](articles/claude-account-ban-vpn-myth.md) | 封号和 VPN 的关系，以及真正容易触发风控的行为 |
-| [ChatGPT 国内稳定使用指南](articles/chatgpt-access-guide.md) | Network Error、Cloudflare 人机验证循环等报错的解决思路 |
-| [Claude 稳定访问与防封号指南](articles/claude-access-guide.md) | 落地 IP 怎么选、怎样降低被封概率 |
-| [Cursor 开发者网络优化手册](articles/cursor-access-guide.md) | Cursor 一直 Connecting、登录失败、补全延迟高的处理办法 |
+| [ChatGPT Network Error、人机验证循环怎么解决？国内使用指南](articles/chatgpt-access-guide.md) | 用 cdn-cgi/trace 查出口 IP，按节点、分流规则、浏览器三步排查 Network Error 和验证循环 |
+| [Claude 稳定访问指南：落地 IP、手机号验证与封号风险](articles/claude-access-guide.md) | 官方支持地区与手机号验证规则，落地 IP 怎么选，全平台网络设置 |
+| [Cursor 一直 Connecting 怎么办？登录失败、补全慢网络优化](articles/cursor-access-guide.md) | Run Diagnostics、HTTP/1.1 兼容模式、TUN 与分流域名、地区限制和补全延迟 |
 
 ## 客户端使用教程
 
