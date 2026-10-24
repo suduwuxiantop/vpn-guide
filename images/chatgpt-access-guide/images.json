@@ -1,0 +1,60 @@
+[
+ {
+  "file": "cover.webp",
+  "type": "cover",
+  "tag": "ChatGPT · 2026 教程",
+  "title": "ChatGPT Network Error\n人机验证循环怎么解决",
+  "subtitle": "查出口 IP · 固定节点 · 分流规则 · 浏览器排查"
+ },
+ {
+  "file": "troubleshoot-flow.webp",
+  "type": "decision",
+  "title": "打开 chatgpt.com/cdn-cgi/trace，按结果排查",
+  "nodes": [
+   {
+    "q": "页面打不开，或 loc=CN？",
+    "yes": "浏览器没走代理或被分到直连：检查规则，切全局模式验证"
+   },
+   {
+    "q": "loc=HK 或 MO？",
+    "yes": "香港 / 澳门不在支持地区：换美国、日本、新加坡、台湾节点"
+   },
+   {
+    "q": "人机验证一直循环？",
+    "yes": "换 IP 更干净的节点；验证域名与主站同一出口；关拦截插件"
+   },
+   {
+    "q": "回答写到一半 Network Error？",
+    "yes": "关掉自动选择、固定节点；UDP 受限换 Reality / AnyTLS",
+    "no": "网络正常，看 OpenAI 状态页是否故障"
+   }
+  ]
+ },
+ {
+  "file": "network-error-steps.webp",
+  "type": "steps",
+  "title": "Network Error：5 步排查",
+  "steps": [
+   [
+    "固定节点",
+    "关掉自动选择 / 负载均衡，切换瞬间回答必断"
+   ],
+   [
+    "换一个协议的节点",
+    "UDP 受限用 VLESS+Reality / AnyTLS；TCP 丢包多试 Hysteria2"
+   ],
+   [
+    "判断是否只有长回答出错",
+    "短回答正常、长回答断，就是连接稳定性问题"
+   ],
+   [
+    "刷新页面后点「重新生成」",
+    "断掉的回答不会自动恢复，不用重新提问"
+   ],
+   [
+    "只保留一个代理软件",
+    "多个代理或公司安全软件同时接管流量会互相干扰"
+   ]
+  ]
+ }
+]

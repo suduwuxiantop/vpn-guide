@@ -1,0 +1,60 @@
+[
+ {
+  "file": "cover.webp",
+  "type": "cover",
+  "tag": "Cursor · 2026 手册",
+  "title": "Cursor 一直 Connecting\n网络优化手册",
+  "subtitle": "Run Diagnostics · HTTP/1.1 · TUN 模式 · 地区限制 · 补全延迟"
+ },
+ {
+  "file": "diagnose-flow.webp",
+  "type": "decision",
+  "title": "Cursor Settings → Network → Run Diagnostics",
+  "nodes": [
+   {
+    "q": "大部分检测项失败？",
+    "yes": "Cursor 没走代理：开 TUN，完全退出 Cursor 后重开"
+   },
+   {
+    "q": "只有流式响应（HTTP/2）相关项失败？",
+    "yes": "HTTP Compatibility Mode 改成 HTTP/1.1，重启 Cursor"
+   },
+   {
+    "q": "检测通过，但模型列表变少？",
+    "yes": "模型提供方的地区限制：换支持地区节点，或用其他可用模型"
+   },
+   {
+    "q": "检测通过，但 Tab 补全很慢？",
+    "yes": "固定一个延迟低、稳定的节点，关掉自动选择",
+    "no": "网络正常，检查 Agent 终端命令是否走代理"
+   }
+  ]
+ },
+ {
+  "file": "http-mode-compare.webp",
+  "type": "compare",
+  "title": "HTTP Compatibility Mode 怎么选",
+  "columns": [
+   "HTTP/2（默认）",
+   "HTTP/1.1"
+  ],
+  "rows": [
+   [
+    "延迟",
+    "✓ 更低",
+    "略高"
+   ],
+   [
+    "经过代理或网关时",
+    "✗ 部分环境会被干扰，一直 Connecting",
+    "✓ 兼容性更好"
+   ],
+   [
+    "适合场景",
+    "网络干净、连接稳定",
+    "代理、公司网络、频繁断流"
+   ]
+  ],
+  "note": "修改后要完全退出 Cursor 再打开；不建议选 HTTP/1.0。"
+ }
+]
