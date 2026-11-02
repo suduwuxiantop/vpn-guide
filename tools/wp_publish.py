@@ -27,6 +27,7 @@ ROOT = Path(__file__).resolve().parent.parent
 WP_URL = os.environ.get("WP_URL", "https://main.suduwuxian.top").rstrip("/")
 GITHUB_BLOB = "https://github.com/suduwuxiantop/vpn-guide/blob/main/articles/"
 SUMMARY_MARK = "完整内容请阅读原文"
+SITE_HOST = "main.suduwuxian.top"
 
 
 def site_url_of(article: Path):
@@ -34,6 +35,21 @@ def site_url_of(article: Path):
         return None
     m = re.search(r"\((https://main\.suduwuxian\.top/[^)\s]+)\)", article.read_text(encoding="utf-8"))
     return m.group(1) if m else None
+
+
+def open_external_in_new_tab(html):
+    """外部链接新标签页打开：加 target=_blank 和 rel=noopener，不加 nofollow（官方来源保持正常权重）。"""
+    def rep(m):
+        attrs = m.group(1)
+        href = re.search(r'href="https?://([^/"]+)', attrs)
+        if not href or href.group(1).lower().endswith(SITE_HOST):
+            return m.group(0)
+        if "target=" not in attrs:
+            attrs += ' target="_blank"'
+        if "noopener" not in attrs:
+            attrs += ' rel="noopener"'
+        return f"<a {attrs}>"
+    return re.sub(r"<a\s([^>]*?)>", rep, html)
 
 
 def short_answer(text):
@@ -127,6 +143,7 @@ def build_post(wp: WP, slug, published_urls):
     body = re.sub(r"\[([^\]]+)\]\(([a-z0-9-]+\.md)\)", fix_link, body)
     html = markdown.markdown(body, extensions=["tables", "fenced_code", "sane_lists"])
     html = html.replace("<img ", '<img loading="lazy" decoding="async" ')
+    html = open_external_in_new_tab(html)
     # 给每张图写上宽高，页面加载时不会因为图片撑开而跳动（Core Web Vitals 的 CLS）
     for url, (w, h) in dims.items():
         html = html.replace(f'src="{url}"', f'width="{w}" height="{h}" src="{url}"')
