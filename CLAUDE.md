@@ -56,7 +56,7 @@ GitHub 上放**摘要版**，完整版发在网站；两边内容必须一致。
 
 - `tools/check_article.py articles/x.md`：按第一节逐条检查文章，**发布前必须全部 ✅**。
 - `tools/make_images.py images/<slug>/images.json`：按配置生成封面图（1200×630）、步骤图、对比表、决策图（WebP）。新文章先写 `images.json` 再运行；有真实截图时一并放进同一目录。
-- `tools/wp_publish.py --status publish --category 分类 slug ...`：把完整版发布到 WordPress，上传配图到媒体库并设特色图片、改写站内互链、写 SEO 描述；先 `--dry-run` 预览。凭据读取环境变量 `WP_URL`、`WP_USER`、`WP_APP_PASSWORD`，**不得打印或提交凭据**。摘要版会被拒绝发布。发布时外部链接自动加 `target="_blank" rel="noopener"`（不加 nofollow），图片自动写入宽高。
+- `tools/wp_publish.py --status publish --category 分类 slug ...`：把完整版发布到 WordPress，上传配图到媒体库并设特色图片、改写站内互链、写 SEO 描述；先 `--dry-run` 预览。凭据读取环境变量 `WP_URL`、`WP_USER`、`WP_APP_PASSWORD`，**不得打印或提交凭据**。摘要版会被拒绝发布。发布时外部链接自动加 `target="_blank" rel="noopener"`（不加 nofollow），图片自动写入宽高；指向自己面板、Telegram、GitHub 仓库的推广链接自动改走 `/go/` 跳转页（脚本里的 `GO_LINKS`，后台 Rank Math 重定向须为 302，且 Cloudflare 缓存规则要排除 `/go/`）。
 - `tools/seo_audit.py --render > report.md`：按第三节标准做只读体检，输出按 P0/P1/P2 排序的问题清单。
 
 ## 五、发布流程

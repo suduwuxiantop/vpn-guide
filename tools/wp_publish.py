@@ -28,6 +28,15 @@ WP_URL = os.environ.get("WP_URL", "https://main.suduwuxian.top").rstrip("/")
 GITHUB_BLOB = "https://github.com/suduwuxiantop/vpn-guide/blob/main/articles/"
 SUMMARY_MARK = "完整内容请阅读原文"
 SITE_HOST = "main.suduwuxian.top"
+# 推广类链接（自己的面板、Telegram、GitHub 仓库）走本站 /go/ 跳转页统计点击；
+# 跳转规则在后台 Rank Math → 重定向里维护，类型必须是 302。官方资料等外部来源保持直链。
+GO_LINKS = {
+    "https://qaz.suduwuxian.top": "panel",
+    "https://qaz.suduwuxian.top/": "panel",
+    "https://t.me/suduwuxiantop": "telegram",
+    "https://github.com/suduwuxiantop/tuic-singbox-installer": "github-tuic",
+    "https://github.com/suduwuxiantop/proxy-chain-examples": "github-chain",
+}
 
 
 def site_url_of(article: Path):
@@ -37,12 +46,18 @@ def site_url_of(article: Path):
     return m.group(1) if m else None
 
 
+def route_promo_links(html):
+    for url, name in GO_LINKS.items():
+        html = html.replace(f'href="{url}"', f'href="https://{SITE_HOST}/go/{name}"')
+    return html
+
+
 def open_external_in_new_tab(html):
     """外部链接新标签页打开：加 target=_blank 和 rel=noopener，不加 nofollow（官方来源保持正常权重）。"""
     def rep(m):
         attrs = m.group(1)
         href = re.search(r'href="https?://([^/"]+)', attrs)
-        if not href or href.group(1).lower().endswith(SITE_HOST):
+        if not href or (href.group(1).lower().endswith(SITE_HOST) and "/go/" not in attrs):
             return m.group(0)
         if "target=" not in attrs:
             attrs += ' target="_blank"'
@@ -143,7 +158,7 @@ def build_post(wp: WP, slug, published_urls):
     body = re.sub(r"\[([^\]]+)\]\(([a-z0-9-]+\.md)\)", fix_link, body)
     html = markdown.markdown(body, extensions=["tables", "fenced_code", "sane_lists"])
     html = html.replace("<img ", '<img loading="lazy" decoding="async" ')
-    html = open_external_in_new_tab(html)
+    html = open_external_in_new_tab(route_promo_links(html))
     # 给每张图写上宽高，页面加载时不会因为图片撑开而跳动（Core Web Vitals 的 CLS）
     for url, (w, h) in dims.items():
         html = html.replace(f'src="{url}"', f'width="{w}" height="{h}" src="{url}"')
