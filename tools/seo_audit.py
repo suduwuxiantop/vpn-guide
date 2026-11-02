@@ -201,7 +201,7 @@ def main():
             issue("P1", f"`{path}` 有 {p['img_no_alt']} 张图片缺 alt")
         if p["long_slug"]:
             issue("P2", f"`{path[:60]}…` URL 过长（多为中文编码 slug），新文章改用英文 slug，旧链接改动需 301")
-        if p is not home and not any("Article" in t for t in p["ld"]):
+        if p is not home and not any(x in ("Article", "BlogPosting", "NewsArticle", "TechArticle") for x in p["ld"]):
             issue("P1", f"`{path}` 没有 Article 结构化数据")
         if p is not home and p["chars"] < 800:
             issue("P2", f"`{path}` 正文约 {p['chars']} 字，内容偏薄")

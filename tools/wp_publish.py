@@ -21,6 +21,7 @@ from pathlib import Path
 
 import markdown
 import requests
+from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
 WP_URL = os.environ.get("WP_URL", "https://main.suduwuxian.top").rstrip("/")
@@ -102,6 +103,7 @@ def build_post(wp: WP, slug, published_urls):
     body = re.sub(r"<!-- description: .+? -->\n", "", body)
 
     featured = 0
+    dims = {}
 
     def replace_image(m):
         nonlocal featured
@@ -112,6 +114,7 @@ def build_post(wp: WP, slug, published_urls):
                                         caption_match.group(1) if caption_match else "")
         if img.stem == "cover":
             featured = media_id
+        dims[url] = Image.open(img).size
         return f"![{alt}]({url})"
 
     body = re.sub(r"!\[([^\]]*)\]\((\.\./images/[^)]+)\)", replace_image, body)
@@ -124,6 +127,9 @@ def build_post(wp: WP, slug, published_urls):
     body = re.sub(r"\[([^\]]+)\]\(([a-z0-9-]+\.md)\)", fix_link, body)
     html = markdown.markdown(body, extensions=["tables", "fenced_code", "sane_lists"])
     html = html.replace("<img ", '<img loading="lazy" decoding="async" ')
+    # 给每张图写上宽高，页面加载时不会因为图片撑开而跳动（Core Web Vitals 的 CLS）
+    for url, (w, h) in dims.items():
+        html = html.replace(f'src="{url}"', f'width="{w}" height="{h}" src="{url}"')
     return {"title": title, "slug": slug, "content": html, "excerpt": short_answer(text),
             "featured_media": featured}
 
