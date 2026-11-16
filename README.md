@@ -2,7 +2,7 @@
 
 > 用大白话把 VPN、代理、机场、加密协议讲明白，不讲黑话。内容涵盖 **ChatGPT / Claude / Gemini 国内访问与安装**、**Clash Verge / v2rayN / 小火箭客户端教程**、**Hysteria2 / VLESS+Reality / AnyTLS 自建节点**和**节点超时等常见故障排查**。
 
-🌐 **官网与完整版文章**：[main.suduwuxian.top](https://main.suduwuxian.top/) ｜ 📢 **Telegram 频道**：[t.me/suduwuxiantop](https://t.me/suduwuxiantop) ｜ ⭐ 觉得有用欢迎 Star
+🌐 **官网与完整版文章**：[main.suduwuxian.top](https://main.suduwuxian.top/) ｜ 📢 **Telegram 频道**：[t.me/qazsuduwuxiantop](https://t.me/qazsuduwuxiantop) ｜ 💬 **Telegram 群组**：[t.me/suduwuxiantop](https://t.me/suduwuxiantop) ｜ ⭐ 觉得有用欢迎 Star
 
 这是一个专注于 **网络加速与隐私保护科普** 的开源文档仓库，目标只有一个：让完全不懂技术的人，也能看懂"科学上网"这件事到底是怎么回事、该怎么挑、怎么避坑。
 
@@ -138,4 +138,4 @@
 
 ## 📢 Telegram 频道
 
-新教程、节点公告和更新通知会第一时间发在 Telegram 频道，欢迎关注：[t.me/suduwuxiantop](https://t.me/suduwuxiantop)
+新教程、节点公告和更新通知会第一时间发在 Telegram 频道，欢迎关注：[t.me/qazsuduwuxiantop](https://t.me/qazsuduwuxiantop)；想交流使用问题，欢迎加入 Telegram 群组：[t.me/suduwuxiantop](https://t.me/suduwuxiantop)
