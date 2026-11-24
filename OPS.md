@@ -29,7 +29,10 @@
 4. Rank Math 后台：关闭 Slack 增强分享（去掉首页"Written by"标签）；robots.txt 里 `User-agent: *` 组加 `Disallow: /go/`（避免机器人点击计入跳转统计）。
 5. 更换 WordPress 应用程序密码（历史上有一次命令写错，密码被拆开尝试解析，虽然没发出去，但建议换）。
 6. **频道与群组标签**：t.me/suduwuxiantop 实际是群组（12 members），t.me/qazsuduwuxiantop 是频道（7 subscribers），但 51 篇文章结尾和 GitHub 摘要里写的是"Telegram 频道：t.me/suduwuxiantop"。用户尚未决定是否统一改正；要改还需用户在 Rank Math 里再加一条 `go/channel`（302 → `https://t.me/qazsuduwuxiantop`）。
-7. GitHub 仓库的 About 描述和 Topics（API 改不了，需用户在页面设置，内容见 launch kit）。
+7. GitHub 仓库的 About 描述和 Topics（API 改不了，需用户在仓库页面右侧齿轮里设置）：
+   - Description：`ChatGPT / Claude / Gemini 国内访问、Clash Verge / v2rayN 教程、Hysteria2 / VLESS+Reality 搭建与故障排查的中文科普`
+   - Website：`https://main.suduwuxian.top`
+   - Topics：`vpn` `proxy` `clash-verge` `v2rayn` `hysteria2` `vless` `sing-box` `chatgpt` `claude` `cursor` `tutorial` `chinese`
 8. 是否停用用不上的插件（Angie、无障碍插件、Easy TOC 等，影响回源速度）：用户未决定，**助手不得自行停用**。
 9. robots.txt 冲突：Cloudflare 托管段对 GPTBot、ClaudeBot、Google-Extended、CCBot 等写了 `Disallow: /`，Rank Math 自定义段又写了 `Allow: /`；Baiduspider 只被屏蔽。是否有意需用户确认。
 

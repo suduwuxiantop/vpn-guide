@@ -66,3 +66,7 @@ GitHub 上放**摘要版**，完整版发在网站；两边内容必须一致。
 ## 六、提交规范
 
 提交作者：`速度无限 | 高可用架构VPN | Claude/Gpt/Gemini可用VPN | 流媒体VPN <107822428+suduwuxiantop@users.noreply.github.com>`；提交信息 `docs: ...` 中文；用户已同意直接推送 main。
+
+## 七、运维交接与每日巡检
+
+站点现状、已完成的改动、需要用户处理的事项、每日巡检的白名单和禁止事项都在 `OPS.md`，**开新会话先读它**；巡检脚本是 `tools/daily_check.py`，日志在 `ops/LOG.md`。
